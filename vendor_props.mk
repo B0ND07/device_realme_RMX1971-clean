@@ -179,4 +179,20 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.radio.apm_sim_not_pwdn=1 \
     persist.vendor.radio.custom_ecc=1 \
     persist.vendor.radio.rat_on=combine \
-    persist.vendor.radio.sib16_support=1
+    persist.vendor.radio.sib16_support=1 \
+    persist.vendor.radio.sib16_support=1 \
+    persist.vendor.radio.sib16_support=1 \
+    persist.camera.HAL3.enabled=1 \
+    persist.radio.VT_CAM_INTERFACE=2 \
+    persist.radio.VT_CAM_INTERFACE=1 \
+    persist.vendor.qti.telephony.vt_cam_interface=1 \
+    persist.data.iwlan.enable=true \
+    persist.dbg.wfc_avail_ovr=1
+
+# SurfaceFlinger
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    ro.surface_flinger.protected_contents=true \
+    ro.surface_flinger.use_smart_90_for_video=true \
+    ro.surface_flinger.set_display_power_timer_ms=10000 \
+    ro.surface_flinger.set_touch_timer_ms=5000 \
+    ro.surface_flinger.set_idle_timer_ms=9000
