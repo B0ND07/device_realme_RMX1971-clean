@@ -457,6 +457,13 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     WfdCommon
 
+# MiXplorer
+PRODUCT_PACKAGES += \
+   MiXplorer
+
+# Music Player
+PRODUCT_PACKAGES += \
+  RetroMusic
+
 # Inherit from proprietary version
 $(call inherit-product-if-exists, vendor/realme/RMX1971/RMX1971-vendor.mk)
-
