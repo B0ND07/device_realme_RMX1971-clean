@@ -1023,6 +1023,15 @@ vendor/firmware/a225_pm4.fw
 vendor/firmware/a300_pm4.fw
 vendor/firmware/a530_gpmu.fw2
 
+# Graphics (Vulkan)
+vendor/etc/permissions/android.hardware.opengles.aep.xml
+vendor/etc/permissions/android.hardware.vulkan.compute.xml 
+vendor/etc/permissions/android.hardware.vulkan.level.xml 
+vendor/etc/permissions/android.hardware.vulkan.version.xml
+vendor/etc/permissions/android.software.vulkan.deqp.level.xml
+vendor/lib64/hw/vulkan.sdm710.so
+vendor/lib/hw/vulkan.sdm710.so
+
 # IPA Firmware
 vendor/firmware/ipa_fws.b00
 vendor/firmware/ipa_fws.b01
