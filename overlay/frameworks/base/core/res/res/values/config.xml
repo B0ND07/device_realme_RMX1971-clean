@@ -553,6 +553,9 @@
 
     <!-- Whether device has screen with higher aspect ratio -->
     <bool name="config_haveHigherAspectRatioScreen">true</bool>
+    
+    <!-- Whether device has vooc charging support -->
+    <bool name="config_hasVoocCharger">true</bool>
 
     <!-- Whether device has a notch -->
     <bool name="config_haveNotch">true</bool>
