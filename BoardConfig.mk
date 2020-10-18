@@ -169,9 +169,6 @@ OVERRIDE_RS_DRIVER := libRSDriver_adreno.so
 # RIL
 ENABLE_VENDOR_RIL_SERVICE := true
 
-# SurfaceFlinger
-TARGET_USE_AOSP_SURFACEFLINGER := true
-
 # Security patch level
 VENDOR_SECURITY_PATCH := 2020-02-05
 
